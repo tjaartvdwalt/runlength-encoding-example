@@ -1,0 +1,27 @@
+{
+  "name": "runlength-encoding-example",
+  "version": "1.0.0",
+  "description": "An app to show how Runlength encoding works",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp src/index.html dist/ && ./node_modules/browserify/bin/cmd.js src/js/encode.js -o dist/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjaartvdwalt/runlength-encoding-example.git"
+  },
+  "keywords": [
+    "runlength"
+  ],
+  "author": "Tjaart van der Walt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjaartvdwalt/runlength-encoding-example/issues"
+  },
+  "homepage": "https://github.com/tjaartvdwalt/runlength-encoding-example#readme",
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "jquery": "^2.2.1"
+  }
+}
